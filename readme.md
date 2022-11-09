@@ -3,7 +3,7 @@
 ### Course: Backend development and API
 - Project: Url Shorten
 - Tech: nodejs, express, nanoid, dotenv, sqlite3, validator
-* create new shorturl 
+1. create new shorturl 
 - [POST] "/api/" 
 - body:{
     "url":"https://www.google.com/"
@@ -16,6 +16,6 @@
   "DATE_CREATED": "2022-11-09"
 }
 - open link with shorturl
-- [GET] "/api/id"
+2. [GET] "/api/id"
 - success: redirect to original url
 - fail => return {"msg":"Not found!!!"}
