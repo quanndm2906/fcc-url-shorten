@@ -15,7 +15,7 @@
   "CLICK": 0,
   "DATE_CREATED": "2022-11-09"
 }
-- open link with shorturl
-2. [GET] "/api/id"
+2. open link with shorturl
+- [GET] "/api/id"
 - success: redirect to original url
 - fail => return {"msg":"Not found!!!"}
